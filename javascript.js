@@ -19,13 +19,13 @@ function changeImageonce(){
     
   }
 
-
+//Q2:
 function copy(){
     let input=document.getElementsByClassName("input");
     input[1].value=input[0].value;
 }
 
-
+//Q3:
 let person=[
     {
         name:"Prithika",
@@ -53,7 +53,7 @@ function print(){
 }
 
 print();
-
+//Q4:
 function age(){
     for (let i=0;i<3;i++){
         if(person[i].age<30){
